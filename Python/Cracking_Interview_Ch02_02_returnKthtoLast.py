@@ -58,6 +58,8 @@ for newNodeValue in newNodeArray:
     testLinkedList.addNode(newNodeValue)
 testLinkedList.printAllNode()
 
+#########################################################################
+
 ## test 1, normal case
 returnKthtoLast(testLinkedList, 7)
 testLinkedList.printAllNode()
