@@ -32,6 +32,8 @@ class Solution(object):
         :type H: int
         :rtype: int
         """
+        if len(piles) == H:
+            return max(piles)
         minPile = 1
         maxPile = max(piles)
 
